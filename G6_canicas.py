@@ -1,3 +1,40 @@
+# ----------------------------------------------------------------------------------------
+# PROGRAMA: G6_canicas.py
+# ----------------------------------------------------------------------------------------
+# Descripción: 
+#   Teniendo en cuenta esto, construya un algoritmo que permita clasificar un conjunto de N canicas cuyos
+#   diámetros son dados uno a uno por el usuario. El programa debe mostrar la clasificación de cada canica.
+#   De igual manera, el programa debe informar, antes de terminar, la cantidad de canicas de cada clase. Para
+#   el ejemplo, de las N=6 canicas de la tabla, el programa debería imprimir los siguientes resultados:
+# ----------------------------------------------------------------------------------------
+# Autores:
+# JONATAN SANTIAGO ARANDA NIEVES
+# EDGAR SEBASTIAN FONSECA RODRIGUEZ
+# CESAR GONZALEZ CORTES
+# Version: 1.0
+# [05.08.2024]
+# ----------------------------------------------------------------------------------------
+# IMPORTAR MODULOS
+# ----------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------
+# VARIABLES GLOBALES 
+#----------------------------------------------------------------------------------------
+# buenas                = Contador de canicas buenas
+# malas                 = Contador de canicas mas
+# potencialmente_buenas = Contador de canicas potencialmente_buenas
+#----------------------------------------------------------------------------------------
+# PRECONDICIONES
+# ----------------------------------------------------------------------------------------
+# 1. Tiene que ingresar un numero entre 3 y 10.
+# 2. El numero tiene que ser entero.
+# ----------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------
+# POSTCONDICIONES
+# ----------------------------------------------------------------------------------------
+# 1. Clasificar la canica por su diametro.
+# 2. Indicar la cantidad de canicas en sus diferentes calidades: Bueno, potencial mente bueno y Malo.
+# 
+# ----------------------------------------------------------------------------------------
 def clasificar_canicas():
     # Solicitar la cantidad de canicas
     while True:
@@ -33,3 +70,7 @@ def clasificar_canicas():
 
 # Ejecutar la función
 clasificar_canicas()
+
+# ----------------------------------------------------------------------------------------
+# Fin.
+# ----------------------------------------------------------------------------------------
