@@ -45,8 +45,8 @@ def picas(numeroSecreto, juego):
     i=0
     contador =0
     for i in range(len(juego)):
-        if numeroSecreto[i] in juego:
-            #print(numeroSecreto[i])
+        if numeroSecreto[i] in juego and numeroSecreto[i] != juego[i] :
+            print(numeroSecreto[i])
             contador +=1
     return contador
         
